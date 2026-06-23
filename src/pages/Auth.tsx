@@ -135,7 +135,7 @@ export default function Auth() {
             {isForgot
               ? "Enter your email and we'll send a reset link"
               : isLogin
-              ? "Track your expenses with ease"
+              ? "Start managing your money today"
               : "Start managing your money today"}
           </CardDescription>
         </CardHeader>
