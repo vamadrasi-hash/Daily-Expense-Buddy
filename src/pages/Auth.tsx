@@ -141,7 +141,7 @@ export default function Auth() {
           </div>
           <p className="text-3xl font-normal text-primary tracking-tight" style={{ fontFamily: "'Pacifico', cursive" }}>SpendWise</p>
           <CardTitle className="text-xl font-bold">
-            {isForgot ? "Reset Password" : isLogin ? "Welcome" : "Create Account"}
+            {isForgot ? "Reset Password" : isLogin ? "Welcome to your Pocket App" : "Create Account"}
           </CardTitle>
           <CardDescription>
             {isForgot
